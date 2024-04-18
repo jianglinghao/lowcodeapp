@@ -1,0 +1,55 @@
+{
+    "appConfig": {
+        "project": "hzboxer",
+        "domainName": "hzboxer",
+        "extendedConfig": null,
+        "envConfig": {
+            "lowcodeDomain": "lcap.163yun.com"
+        },
+        "tenant": "netease-official",
+        "i18nInfo": {
+            "enabled": false,
+            "locale": "zh-CN",
+            "messages": {},
+            "I18nList": []
+        }
+    },
+    "dnsAddr": "http://hzboxer.netease-official.lcap.163yun.com",
+    "tenant": "netease-official",
+    "env": "dev",
+    "hasUserCenter": true,
+    "hasAuth": true,
+    "authResourcePaths": [
+        "/dashboard/roleManagement",
+        "/dashboard/resourceManagement",
+        "/dashboard/addRoleUser",
+        "/dashboard/userManagement",
+        "/permission_center/addRoleUser",
+        "/permission_center/resourceManagement",
+        "/permission_center/roleManagement",
+        "/permission_center/userManagement",
+        "/permission_center",
+        "/"
+    ],
+    "baseResourcePaths": [
+        "/login",
+        "/dashboard/userGroup",
+        "/dashboard/ProjectDetail",
+        "/dashboard/TaskList",
+        "/dashboard/CustomerDetail",
+        "/dashboard/bug",
+        "/dashboard/risk",
+        "/dashboard/CustomerList",
+        "/dashboard/ProjectList",
+        "/dashboard/POCList",
+        "/dashboard/workHourStatistics",
+        "/dashboard/POCDetail",
+        "/dashboard",
+        "/noAuth",
+        "/notFound",
+        "/index"
+    ],
+    "basePath": "",
+    "sysPrefixPath": "",
+    "frontendName": "pc"
+}

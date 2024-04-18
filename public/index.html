@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <style>
+    body,
+    html,
+    #app {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+
+  <!-- 引入样式 -->
+  <!-- <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css"> -->
+
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+
+
+  <!-- built files will be auto injected -->
+  <!-- 引入组件库 -->
+  <!-- <script src="http://static-vusion.163yun.com/packages/lcap-login@1.0.4/dist-theme/index.js"></script> -->
+</body>
+
+<style id="theme">
+  :root {
+                --brand-primary-darkest: #6c171a;
+    --brand-primary-darker: #811b1f;
+    --brand-primary-dark: #ac2429;
+    --brand-primary: #c2292e;
+    --brand-primary-light: #d4353a;
+    --brand-primary-lighter: #efb3b5;
+    --brand-primary-lightest: #fae6e6;
+    --brand-primary-disabled: #efb3b5;
+    --brand-primary-opacity-20: #c2292e33;
+        }
+</style>
+
+</html>
